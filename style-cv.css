@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+   /* font-family: "Archivo Narrow", sans-serif;*/
+   font-family: "Comic Neue", cursive;
+   background-color: #f1f1f1;
+}
+span {
+    font-family: "Archivo Narrow", sans-serif;
+    text-shadow: #aaa;
+    font-size: large;
+}
+h1{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.Año {
+    float: right;
+    color:gray;
+}
+
+/* Header */
+.header {
+    padding: 30px;
+    text-align: center;
+    background-color:gainsboro;
+         
+}
+.header h1 {
+    font-size: 40px;
+    font-family:"Archivo Narrow", sans-serif;
+}
+
+/* Top Nabigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    position: sticky;
+    top:0;
+    
+}
+.topnav a {
+    float:left;
+    display: block;
+    text-align: center;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: white;
+    
+}
+.topnav a:hover {
+    /*cambia color al pasar por encima cursor*/ 
+    background-color: gray;
+    color:black
+}
+
+.leftcolumn {
+    float:left;
+    width: 70%;
+   
+}
+.rightcolumn {
+    float: left;
+    width: 30%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+    
+}
+.rightcolumn p {
+    text-align: justify;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.foto img {
+    width: 100%;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}

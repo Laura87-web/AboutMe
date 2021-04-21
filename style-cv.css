@@ -101,6 +101,12 @@ h1{
     margin-right: 20px;
     border-radius: 10px;
 }
+.dark{
+    background-color: var(--color3);
+    color: var(--color1)
+}
+
+
 .icono-link  {
     
    
@@ -137,4 +143,7 @@ h1{
     align-items: center;
     justify-content: space-around;
 
+}
+.title-left{
+    color:var(--color2)
 }
